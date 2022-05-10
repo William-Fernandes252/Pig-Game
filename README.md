@@ -26,10 +26,10 @@ In order torun this project locally, run the following commands:
 
 ## Snapshot
 
-<h3 style="text-align:center">Welcome page</h3>
+<h3 align="center">Welcome page</h3>
 
 ![Rules](./snapshot/rules.jpg)
 
-<h3 style="text-align:center">Win</h3>
+<h3 align="center">Win</h3>
 
 ![Winner](./snapshot/winner.jpg)
