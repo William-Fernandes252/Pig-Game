@@ -1,6 +1,6 @@
 # Pig-Game
 
-A simple two-player game implemented with **Typescript** and **JQuery**.
+A simple two-player game application, implemented with **Typescript** and **JQuery**, developed during my enroll on the [Jonas Schmedtmann Javascript course](https://www.udemy.com/course/the-complete-javascript-course/ 'Course page on Udemy').
 
 ![Game](./snapshot/game.jpg)
 
