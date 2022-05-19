@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/script/index.ts',
+    entry: './src/index.ts',
     devtool: 'inline-source-map',
     module: {
         rules: [
@@ -16,7 +16,12 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|jpeg|gif)$/i,
-                type: 'asset/resource',
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        esModule: false,
+                    },
+                },
             },
         ],
     },
